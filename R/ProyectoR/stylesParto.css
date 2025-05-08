@@ -1,0 +1,51 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Título principal */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el botón de predicción */
+#predictButton {
+  background-color: #589AE0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para los input */
+input[type="number"], select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilo para el resultado de la predicción */
+#prediction {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.well {
+  background: linear-gradient(to bottom, #8ACFE0, #C8DBE0);
+    align-content: center;
+}
